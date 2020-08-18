@@ -3,7 +3,7 @@
 ## 介绍
 
 - 可用于引导Catalina 10.15.6以及~~Bug~~Big Sur public beta 1
-- 所有Kext以及OpenCorePkg都是由最新commit编译的(均为Release版)。[编译时间: 2020-08-11]
+- 所有Kext以及OpenCorePkg都是由最新commit编译的(均为Release版)。[编译时间: 2020-08-19]
     - 声卡设备为`0xA3F0`，[AppleALC](https://github.com/goomadao/AppleALC/releases/tag/1.5.1.1)基于最新commit修改并编译。
     - USB controller为`0xA3AF`，因此`USBInjectAll.kext`和`XHCI-unsupported.kext`也需要修改。
     - 以上三个Kext可以在[Modified Kexts](./Modified%20Kexts)中找到
