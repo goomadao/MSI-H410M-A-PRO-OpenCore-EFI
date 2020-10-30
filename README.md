@@ -2,7 +2,7 @@
 
 ## 介绍
 
-- 可用于引导~~Bug~~Big Sur 最新 Beta(20A5384c)，其他 Beta 版本及 Catalina 请自行测试。
+- 可用于引导~~Bug~~Big Sur 11.0.1 Beta(20B5012d)，其他 Beta 版本及 Catalina 请自行测试。
 - OpenCore 版本:0.6.2
   - ~~声卡设备为`0xA3F0`，[AppleALC](https://github.com/goomadao/AppleALC/releases/tag/1.5.1.1)基于最新 commit 修改并编译。~~ [修改已合并](https://github.com/acidanthera/AppleALC/pull/587)
   - USB controller 为`0xA3AF`，因此`USBInjectAll.kext`和`XHCI-unsupported.kext`也需要修改。
