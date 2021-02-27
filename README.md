@@ -36,7 +36,7 @@
 ## Tips
 
 - 请自行修改 config.plist 中的`MLB`, `SystemSerialNumber`以及`SystemUUID`
-- 本 EFI 使用核显连接显示器，可用缓冲帧有`07009B3E`和`00009B3E`，不过会出现黑屏问题，需要开关显示器才能解决。如果使用独显连接显示器，请将缓冲帧更改为`0300C89B`。([参考](https://dortania.github.io/OpenCore-Install-Guide/config.plist/comet-lake.html#deviceproperties))
+- 本 EFI 使用核显连接显示器，可用缓冲帧有`07009B3E`和`00009B3E`，不过会出现黑屏问题，需要开关显示器才能解决。如果使用独显连接显示器，请将缓冲帧更改为`0300C89B`，并且`device-id`也可以删除。([参考](https://dortania.github.io/OpenCore-Install-Guide/config.plist/comet-lake.html#deviceproperties))
 - USB 已经进行定制，如果 USB 端口与本主板不一致可以使用 repo 中的[`USBInjectAll.kext`](./Modified%20Kexts/USBInjectAll.kext)再自己进行定制。
 
 ## 鸣谢
