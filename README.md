@@ -2,8 +2,8 @@
 
 ## 介绍
 
-- 可用于引导~~Bug~~Big Sur 11.2.2，其他版本及 Catalina 请自行测试。
-- OpenCore 版本:0.6.6
+- 可用于引导~~Bug~~Big Sur 11.2.3，其他版本及 Catalina 请自行测试。
+- OpenCore 版本:0.6.8
   - 声卡设备地址为`PciRoot(0x0)/Pci(0x1F,0x3)`
   - USB controller 为`0xA3AF`，因此`USBInjectAll.kext`和`XHCI-unsupported.kext`也需要修改。
   - 以上`USBInjectAll.kext` 以及 `XHCI-unsupported.kext` 可以在[Modified Kexts](./Modified%20Kexts)中找到
