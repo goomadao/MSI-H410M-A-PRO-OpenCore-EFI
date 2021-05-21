@@ -1,3 +1,5 @@
+# 硬件已更换，[新 repo](https://github.com/goomadao/MSI-MAG-B460M-MORTAR-WIFI-OpenCore-EFI)
+
 # 微星 H410M-A PRO OpenCore EFI
 
 ## 介绍
